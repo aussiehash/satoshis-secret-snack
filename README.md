@@ -1,8 +1,7 @@
 # Satoshis Secret Snack
 Hardware and Software for creating a Bitcoin BIP39 seed, and then split it into a SLIP39 Shamir Secret Share. The Hardware is extremely inexpensive, and therefore 10 or even more of these can be created for $5-$10. You could probably make 100 for $25. 
 
-![Alt text](img/make_pcb.gif?raw=true "Make PCB")
-![Alt text](img/IMG_24.jpg?raw=true "Final Homemade PCBs")
+![Alt text](img/IMG_24.jpg?raw=true "Final Homemade PCBs" | width=500)
 
 
 ## WARNING
@@ -22,6 +21,7 @@ Shamir's Secret Sharing is really useful because it stores your seed in pieces t
 1. 0.1uF Capacitor (EEPROM Decoupling)
 
 Included are the PCB design files, which can be used for etching your own circuit board. In the attached GIF is a tuturial of how to make "tonor transfer PCBs".
+![Alt text](img/make_pcb.gif?raw=true "Make PCB" | width=500)
 
 # Software
 Trezor's python-mnemonic (BIP39) and python-shamir-mnemonic (SLIP39)
