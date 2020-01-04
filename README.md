@@ -1,6 +1,10 @@
 # Satoshis Secret Snack
 Hardware and Software for creating a Bitcoin BIP39 seed, and then split it into a SLIP39 Shamir Secret Share. The Hardware is extremely inexpensive, and therefore 10 or even more of these can be created for $5-$10. You could probably make 100 for $25. 
 
+![Alt text](img/make_pcb.gif?raw=true "Make PCB")
+![Alt text](img/IMG_24.jpg?raw=true "Final Homemade PCBs")
+
+
 ## WARNING
 This is an early stage project, and hasn't been thoroughly vetted. Happy Proof of Keys Day 2020, hopefully this project can get you thinking harder about your own Bitcoin security. It is also not fully complete, the step of generating the Shamir Share and writing to EEPROM isn't fully automated.
 
